@@ -1,0 +1,162 @@
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+.section {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.large-img {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height:500px;
+    position:relative;
+}
+
+
+.tint {
+    background-color:rgba(250,220,200,0.3);
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.large-img-caption {
+    position:absolute;
+    width:100%;
+    height:60px;
+    line-height:60px;    
+    text-align:center;
+    top:44%;
+    margin-top:-30px;
+    font-size:50px;
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.explain{
+    font-size: 30px;
+    margin-top: 21%;
+    font-style: italic;
+    padding-right: 80px;
+    text-align: right;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.special-container {
+    position:relative;
+    overflow-x:hidden;
+}
+
+.special-img {
+    width:100%;
+}
+
+.special-cover {
+    background-color:lightgoldenrodyellow;
+    background: linear-gradient(to top, rgba(210, 180, 0, 0.1) , rgba(210, 180, 0, 0.7));
+    position:absolute;
+    top:0;
+    font-family: Verdana;
+    width:100%;
+    height:100%;
+    left:100%;
+    transition: left .25;
+
+}
+    
+.special-container h1 {
+    font-size:75px;
+    margin-top: 20px;
+    padding:5px;
+    font-family: 'Russo One', sans-serif;
+    text-align: right;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: gold;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+    
+.summary {
+    font-size: 20px;
+    font-family:serif;
+    text-align: left;
+}
+
+.space {
+    margin-bottom:60px;
+}
+
+.partner {
+    width: 100%;
+}
+
+.product {
+    width: 100%;
+}
+
+.button_contanier {
+    text-align: center;
+    padding: 30px;
+}
+
+.words {
+    text-align: center;
+}
+
+.space2 {
+    height: 200px;
+}
+
+
+#light {
+    width:250px;
+    margin:auto;
+    display:block;
+    transition: all 2.5s;
+            }
+
+.parallax-img {
+    width:100%;
+    height:300px;
+    margin-bottom:30px;
+    background-image:url("../images/parallax.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+            }
+.footer {
+    font-size:15px;
+    width: 100%;
+    text-align: left;
+}
+
+.register {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.quote {
+    font-family: 'Satisfy', cursive;
+    font-size: 23px;
+}
+@import url('https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet');
+
+.names{
+    font-size: 20px;
+}
+            
